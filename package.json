@@ -1,0 +1,32 @@
+{
+  "name": "bluekey",
+  "version": "1.0.0",
+  "description": "A full-stack rental management application.",
+  "main": "src/app.ts",
+  "scripts": {
+    "start": "ts-node src/app.ts",
+    "build": "tsc",
+    "test": "jest"
+  },
+  "dependencies": {
+    "bcryptjs": "^2.4.3",
+    "express": "^4.17.1",
+    "jsonwebtoken": "^8.5.1",
+    "mongoose": "^5.10.9"
+  },
+  "devDependencies": {
+    "@types/express": "^4.17.8",
+    "@types/jest": "^26.0.24",
+    "@types/mongoose": "^5.10.3",
+    "jest": "^26.6.3",
+    "ts-node": "^9.1.1",
+    "typescript": "^4.1.2"
+  },
+  "keywords": [
+    "rental",
+    "management",
+    "application"
+  ],
+  "author": "Your Name",
+  "license": "MIT"
+}
